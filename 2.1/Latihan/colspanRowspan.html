@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan & Rowspanz</title>
+
+<style>
+table {
+color: cadetblue;
+}
+
+tabel, th, td {
+font-family: arial, sans-serif;
+border: 2px solid cadetblue;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+</style>
+</head>
+<div class="container">
+<body>
+    <table border="1">
+    <thead>
+        <tr>
+            <th>18:00</th>
+            <th>19:00</th>
+            <th>20:00</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2">500 days of summer</td>
+            <td>Twister</td>
+        </tr>
+        <tr>
+            <td>Avengers</td>
+            <td>Avengers 2</td>
+            <td>Avengers 3</td>
+        </tr>
+        <tr>
+            <td>Twister</td>
+            <td colspan="2">La La Land</td>
+        </tr>
+    </tbody>
+    </table>
+    <table border="2">
+        <tr>
+            <th rowspan="3">18:00</th>
+        <td>Inside Out 2</td>
+        </tr>
+        <tr>
+            <td>Inside Out 3</td>
+        </tr>
+        <tr>
+            <td>Inside Out 4</td>
+        </tr>
+</table>
+</body>
+</div>
+</html>

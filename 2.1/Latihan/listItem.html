@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list</title>
+</head>
+<style>
+    .container {
+        max-width: 500px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+        color: #333;
+        padding: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    ul,
+    li {
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    ul,
+    li:first-child {
+        color: thistle;
+        font-weight: bold;
+    }
+
+    ul,
+    li:last-child {
+        color: darkred;
+        font-style: italic;
+    }
+
+    ul,
+    li :nth-child(even) {
+        background-color: #ecf0f1;
+    }
+
+    ul,
+    li:nth-child(odd) {
+        background-color: #ffe9b1;
+    }
+
+    ul,
+    li:nth-child(3) {
+        text-decoration: underline;
+    }
+</style>
+<div class="container">
+
+    <body>
+        <ol>
+            <li>bangun pagi</li>
+            <li>sholat</li>
+            <li>mandi</li>
+            <li>pergi sekolah</li>
+            <li>belajar</li>
+            <li>pulang sekolah</li>
+        </ol>
+        <ol type="i">
+            <li>Nasi Goreng</li>
+            <li>Ayam Goreng</li>
+            <li>Bakso</li>
+        </ol>
+        <ul>
+            <li>apel</li>
+            <li>jeruk</li>
+            <li>mangga</li>
+        </ul>
+    </body>
+</div>
+
+</html>

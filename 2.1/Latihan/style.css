@@ -1,0 +1,62 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(9, 9, 155);
+}
+
+th {
+  background: rgb(61, 61, 225);
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+}
+
+p {
+  color: rgb(61, 61, 225);
+  size: 1px;
+  line-height: 1.8;
+}
+
+h2 {
+  color: black;
+  margin-top: 30px;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+#judul {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+#bold {
+  font-weight: bolder;
+  color: rgb(61, 61, 225);
+  size: 1px;
+  line-height: 1.8;
+}

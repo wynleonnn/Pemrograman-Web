@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh :Checked,:Disable, :empty</title>
+</head>
+<style>
+input[type="checkbox"]:checked+label {
+    color: green;
+font-weight: bold;
+}
+
+input[type="radio"]:checked+label {
+    color: blue;
+    text-decoration: underline;
+}
+
+input:disabled{
+    background-color: #ecf0f1;
+color: aliceblue;
+border: 2px solid #bdc3c7;
+padding: 5px;
+border-radius: 5px;
+}
+
+div:empty{
+border: 2px dashed #7f8c8d;
+background-color: #ecf0f1;
+height: 25px;
+width: 120px;
+text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+padding: 20px;
+}
+</style>
+
+<body>
+    <h2>Contoh :Checked,:Disable, :empty</h2>
+    <input type="checkbox" id="check1">
+    <label for="check1">Checklist me!</label>
+
+    <br><br>
+
+    <input type="radio" name="pilihan" id="radio1">
+    <label for="radio1">Option 1</label>
+
+    <input type="radio" name="pilihan" id="radio2">
+    <label for="radio2">Option 2</label>
+
+    <br><br>
+
+    <input type="text" placeholder="Im activating">
+    <input type="text" placeholder="Im disabled" disabled>
+
+    <br><br>
+
+    <div></div>
+</body>
+
+</html>

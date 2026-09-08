@@ -1,0 +1,36 @@
+html{
+font-size: 16px;
+}
+
+body{
+font-size: 1rem;
+background-color: rgb(227, 252, 252);
+}
+
+.container{
+font-size: 1.5rem;
+}
+
+.box{
+font-size: 1.2rem;
+padding: 1em;
+border: 1px solid black;
+}
+
+.nested{
+font-size: 1.2em;
+}
+
+.container{
+width: 900px;
+margin: auto;
+background-color: rgb(237, 254, 255);
+padding: 1.5em;
+border-radius: 10px;
+box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.judul{
+    text-align: center;
+    font-weight: bolder;
+}

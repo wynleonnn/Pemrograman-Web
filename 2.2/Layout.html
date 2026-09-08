@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+        background-color: aliceblue;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 15px;
+        margin: auto;
+        padding: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar {
+        background-color: lightgray;
+        padding: 20px;
+        min-height: 300px;
+    }
+
+    .content {
+        width: 50vw;
+        background-color: lightblue;
+        padding: 20px;
+        min-height: 300px;
+    }
+
+    .footer {
+        background-color: aliceblue;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 24px;
+    }
+</style>
+
+<body>
+    <div class="header">header - 100% Lebar</div>
+    <div class="container">
+        <div class="sidebar">sidebar - 20% Lebar</div>
+        <div class="content">content - 50 vw</div>
+    </div>
+    <div class="footer">footer - 100% Lebar</div>
+</body>
+
+</html>
